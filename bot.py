@@ -4,8 +4,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import openai
 
 # Чтение токенов из переменных окружения
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+TELEGRAM_BOT_TOKEN = os.getenv('7562566219:AAGIS0sKuX2M7__e9rSf8Vu9WPtXxrYykLM')
+OPENAI_API_KEY = os.getenv('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')
 
 # Устанавливаем API-ключ OpenAI
 openai.api_key = OPENAI_API_KEY
